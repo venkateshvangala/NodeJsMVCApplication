@@ -1,0 +1,10 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "sample project for demo",
+  "main": "app.js",
+  "port": "3000",
+  "scripts": { "start": "node app.js" },
+  "author": "imaginea",
+  "license": "venkatesh.vangala@imaginea.com"
+}

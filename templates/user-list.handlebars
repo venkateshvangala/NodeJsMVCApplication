@@ -1,0 +1,24 @@
+<div class="row">
+    {{#each userList}}
+      <div class="col-xs-6 col-md-4" style="width:30.3%;border: 1px solid #ccc; text-align: center; margin:5px; padding: 0.5%; border-radius: 5px;">
+        <div class="row">
+           <span>Name : </span>
+           <span>{{name}}</span>
+        </div>
+        <div class="row">
+           <span>Email : </span>
+           <span>{{email}}</span>
+        </div>
+        <div class="row">
+           <span>Address : </span>
+           <span>{{address.name}}</span>
+        </div>
+        <div class="row">
+           <span>{{address.street}}</span> <br/>
+           <span>{{address.suite}}</span><br/>
+           <span>{{address.city}}</span><br/>
+           <span>{{address.zipcode}}</span>
+        </div>
+      </div>
+  {{/each}}
+</div>
